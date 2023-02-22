@@ -1,0 +1,62 @@
+XML
+
+1. git clone https://github.com/andrman1994/XML.git - Клонировать репозиторий XML на локальный компьютер
+
+2. cd XML - Перейти на локальный репозиторий
+   touch new.xml - Внутри локального XML создать файл “new.xml”
+
+3. git add new.xml - Добавить файл под гит
+
+4. git commit -m "+new.xml" - Закоммитить файл
+
+5. git push - Отправить файл на внешний GitHub репозиторий
+
+6. vim new.xml - Открыть файл new.xml в текстовом редакторе VIM
+   i - Начать редактирование
+
+<personName>Andrei</personName>
+<personSurname>Zhdaniuk</personSurname>
+<personPatronomic>Vitalievich</personPatronomic>
+<personAge>28</personAge>
+<personNumberOfPets>0</personNumberOfPets>
+<personDesiredSalary>9999999999999999999999999999999999999999999$</personDesiredSalary> - изменения в формате XML
+
+   ESC - Завершить редактирование
+   :wq - Завершить работу редактора VIM с сохранением изменений
+
+7. git add . - Добавить файл под гит
+   git commit -m "update new.xml" - Закоммитить файл
+   git push - Отправить изменения на внешний репозиторий
+
+8. touch preferences.xml - Создать файл preferences.xml
+
+9. vim preferences.xml - Открыть файл preferences.xml в текстовом редакторе VIM
+   i - Начать редактирование
+
+<personFavouriteFilm>The Dark Knight</personFavouriteFilm>
+<personFovouriteSeries>Game of Thrones</personFavouriteSeries>
+<personFavouriteDish>Pizza with ham</personFavouriteDish>
+<personFavouriteTimeOfTheYear>Summer</personFavouriteTimeOfTheYear>
+<personDesiredCountryToVisit>United Arab Emirates</personDesiredCountryToVisit> - изменения в формате XML
+
+   ESC - Завершить редактирование
+   :wq - Завершить работу редактора VIM с сохранением изменений
+
+10. touch sklls.xml - Создать файл sklls.xml
+    vim sklls.xml - Открыть файл sklls.xml в текстовом редакторе VIM
+    i - Начать редактирование
+
+<personSkill1>Test-cases</personSkill1>
+<personSkill2>Terminal</personSkill2>
+<personSkill3>JSON</personSkill3>
+<personSkill4>Postman</personSkill4>
+<personSkill5>SQL</personSkill5> - изменения в формате XML
+
+   ESC - Завершить редактирование
+   :wq - Завершить работу редактора VIM с сохранением изменений
+
+11. git add . - Добавить файлы под гит
+    git commit -m "+ preferences.xml + sklls.xml" - Закоммитить файлы
+    git push - Отправить сразу 2 файла на внешний репозиторий
+
+12. git pull - Синхронизировать внешний и локальный репозиторий JSON (после создания баг репорта на внешнем репозитории)
