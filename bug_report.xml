@@ -1,1 +1,9 @@
-
+<id>1</id>
+<description>bug</description>
+<stepsToReproduce>steps</stepsToReproduce>
+<expectedResult>All right</expectedResult>
+<actualResult>All fu@#$d up</actualResult>
+<attachments>I don't have any proof</attachments>
+<priority>Blocker</priority>
+<severity>High</severity>
+<environment>washtub</environment>
